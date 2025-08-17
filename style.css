@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgb(249, 230, 249);
+    padding: 2rem;
+    min-height: 45vh;
+    width: 40vh;
+    border: 4px solid rgb(180, 33, 180);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.amount {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.exchange-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.from,
+.to {
+    margin: 1rem 0 00;
+}
+
+.amount,
+input {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0.2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 3px solid rgb(180, 33, 180);
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.amount,
+p {
+    border: none;
+    background-color: rgb(249, 230, 249);
+}
+
+.exchange-container i {
+    margin: 2.9rem 0 0 0;
+}
+
+.from,
+p {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.to,
+p {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.3rem 0 0.3rem;
+    border-radius: 0.5rem;
+    border: 2px solid lightgrey;
+    background-color: white;
+}
+
+.dropdown,
+img {
+    height: 1.8rem;
+    width: auto;
+}
+
+.dropdown,
+select {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.msg {
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.exchange {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 3px solid rgb(180, 33, 180);
+    background-color: bisque;
+    cursor: pointer;
+}
